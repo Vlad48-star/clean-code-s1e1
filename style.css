@@ -148,7 +148,8 @@ button:hover {
 }
 
 /* Completed */
-#completed-tasks .item-label {
+#completed-tasks 
+.item-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -158,11 +159,13 @@ button:hover {
   display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode 
+.input-text {
   display: inline-block;
   width: 224px
 }
 
-.edit-mode .item-label {
+.edit-mode 
+.item-label {
   display: none;
 }
