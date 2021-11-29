@@ -4,46 +4,58 @@
     color: #333;
     font-family: "Lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .info-picture {
   width: 100%;
 }
+
 .more-inf-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header {
+    text-align: center;
+  }
 }
-}
+
 .centered-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrap {
   display: flex;
 }
+
 .list {
   margin:0;
   padding: 0px;
 }
+
 .list-style-none {
   list-style:none;
 }
+
 .outline-none{
   outline:none;
 }
+
 button {
   background: none;
   border: 0px;
@@ -53,9 +65,11 @@ button {
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .todo-head {
   color: #333;
@@ -66,6 +80,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
+
 .text-todo {
   margin: 0;
   font-size: 18px;
@@ -78,6 +93,7 @@ button:hover {
   font-family: "Lato", sans-serif;
   color: #888;
 }
+
 .text-todo:focus {
   color: #333;
 }
@@ -87,6 +103,7 @@ button:hover {
   display: block;
   margin: 0 0 20px;
 }
+
 .input-text {
   width: 318px;
 }
@@ -96,11 +113,11 @@ button:hover {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .item > * {
   vertical-align: middle;
 }
@@ -108,20 +125,24 @@ button:hover {
 .item-checkbox {
   margin: 0 10px;
 }
+
 .item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .text-todo {
   width: 226px
 }
+
 .icon-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .icon-delete:hover {
   transform: rotateZ(0);
 }
@@ -129,7 +150,7 @@ button:hover {
 /* Completed */
 #completed-tasks .item-label {
   text-decoration: line-through
-    color: #888;
+  color: #888;
 }
 
 /* Edit Task */
