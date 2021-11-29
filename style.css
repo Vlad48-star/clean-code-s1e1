@@ -44,16 +44,16 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list-style-none {
-  list-style:none;
+  list-style: none;
 }
 
 .outline-none{
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -155,14 +155,14 @@ button:hover {
 
 /* Edit Task */
 .input-text {
-  display:none
+  display: none;
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .item-label {
-  display:none;
+  display: none;
 }
