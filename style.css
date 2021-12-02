@@ -134,7 +134,7 @@ button:hover {
 }
 
 .text-todo__input {
-  width: 226px
+  width: 226px;
 }
 
 .icon-delete {
@@ -162,7 +162,7 @@ button:hover {
 .edit-mode 
 .input__text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode 
